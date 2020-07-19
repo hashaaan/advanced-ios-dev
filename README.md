@@ -1,5 +1,3 @@
-# advanced-ios-dev
+# Advanced iOS Application Development 19.1
 
-## COBSCCOMP191P-021
-
-Advanced iOS Application Development 19.1
+### Student ID : COBSCCOMP191P-021
