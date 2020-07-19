@@ -19,6 +19,16 @@
                                 <rect key="frame" x="129" y="291" width="156" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slZ-Zg-rYO" customClass="ASButton" customModule="auth_screen" customModuleProvider="target">
+                                <rect key="frame" x="30" y="714" width="354" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="J1I-Z0-9cT" kind="show" id="CKx-pE-uku"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pBe-5S-xJ0" customClass="ASTextField" customModule="auth_screen" customModuleProvider="target">
                                 <rect key="frame" x="66" y="513" width="283" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -31,20 +41,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slZ-Zg-rYO" customClass="ASButton" customModule="auth_screen" customModuleProvider="target">
-                                <rect key="frame" x="131" y="727" width="153" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="LOGIN">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="J1I-Z0-9cT" kind="show" id="CKx-pE-uku"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.27146130800000001" green="0.70191234349999998" blue="0.74998408559999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="slZ-Zg-rYO" secondAttribute="trailing" constant="30" id="IFd-Kl-k1p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="slZ-Zg-rYO" secondAttribute="bottom" constant="96" id="TYU-Qm-S9a"/>
+                            <constraint firstItem="slZ-Zg-rYO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="670" id="YBZ-xG-3hz"/>
+                            <constraint firstItem="slZ-Zg-rYO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="rhF-zS-KPL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -53,7 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4" y="-80"/>
+            <point key="canvasLocation" x="129" y="-80"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iwd-Ei-b9P">
@@ -63,23 +68,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NightBG" translatesAutoresizingMaskIntoConstraints="NO" id="Bia-zL-GVD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uY-WD-biO">
-                                <rect key="frame" x="184" y="406" width="46" height="30"/>
+                                <rect key="frame" x="184" y="555" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Bia-zL-GVD" firstAttribute="top" secondItem="AjZ-D6-MrN" secondAttribute="top" id="1eE-Xm-ank"/>
+                            <constraint firstAttribute="trailing" secondItem="Bia-zL-GVD" secondAttribute="trailing" id="9AL-Jb-426"/>
+                            <constraint firstAttribute="bottom" secondItem="Bia-zL-GVD" secondAttribute="bottom" id="Dkc-iX-oV3"/>
+                            <constraint firstItem="Bia-zL-GVD" firstAttribute="leading" secondItem="AjZ-D6-MrN" secondAttribute="leading" id="QVG-WT-3R1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kQg-f3-d6r"/>
                     </view>
                     <navigationItem key="navigationItem" id="boi-cg-ZIL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vl-hA-reP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="928" y="-80"/>
+            <point key="canvasLocation" x="927.536231884058" y="-80.357142857142847"/>
         </scene>
     </scenes>
     <resources>
-        <image name="AppLogo" width="1000" height="1000"/>
+        <image name="AppLogo" width="650" height="650"/>
+        <image name="NightBG" width="540" height="960"/>
     </resources>
 </document>
