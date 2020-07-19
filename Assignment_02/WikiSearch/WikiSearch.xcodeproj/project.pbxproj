@@ -16,6 +16,7 @@
 		D6579EB624C403960018F083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6579EB424C403960018F083 /* LaunchScreen.storyboard */; };
 		D6DFA65124C41F43001A1BD2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFA65024C41F43001A1BD2 /* CustomTableViewCell.swift */; };
 		D6DFA65424C42315001A1BD2 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFA65324C42315001A1BD2 /* SearchResultsTableViewController.swift */; };
+		D6DFA65624C42AA0001A1BD2 /* APIRequestFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DFA65524C42AA0001A1BD2 /* APIRequestFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D6579EB724C403960018F083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6DFA65024C41F43001A1BD2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D6DFA65324C42315001A1BD2 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		D6DFA65524C42AA0001A1BD2 /* APIRequestFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestFetcher.swift; sourceTree = "<group>"; };
 		F21ED370EBB36C585E3B479C /* Pods-WikiSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiSearch.debug.xcconfig"; path = "Target Support Files/Pods-WikiSearch/Pods-WikiSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				D6579EB424C403960018F083 /* LaunchScreen.storyboard */,
 				D6579EB724C403960018F083 /* Info.plist */,
 				D6DFA65224C41F54001A1BD2 /* CustomUI */,
+				D6DFA65524C42AA0001A1BD2 /* APIRequestFetcher.swift */,
 			);
 			path = WikiSearch;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6DFA65624C42AA0001A1BD2 /* APIRequestFetcher.swift in Sources */,
 				D6579EAE24C403930018F083 /* ViewController.swift in Sources */,
 				D6579EAA24C403930018F083 /* AppDelegate.swift in Sources */,
 				D6DFA65424C42315001A1BD2 /* SearchResultsTableViewController.swift in Sources */,
