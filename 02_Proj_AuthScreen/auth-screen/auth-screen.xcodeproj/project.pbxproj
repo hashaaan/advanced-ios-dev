@@ -17,6 +17,7 @@
 		D60BA7C324B989A900611AEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA7C224B989A900611AEC /* Constants.swift */; };
 		D60BA7C524B98AED00611AEC /* ASUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA7C424B98AED00611AEC /* ASUITextField.swift */; };
 		D60BA7C724BABDF500611AEC /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BA7C624BABDF500611AEC /* RoundedImageView.swift */; };
+		D61BD00924C200C8003A174E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BD00824C200C8003A174E /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D60BA7C224B989A900611AEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D60BA7C424B98AED00611AEC /* ASUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASUITextField.swift; sourceTree = "<group>"; };
 		D60BA7C624BABDF500611AEC /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		D61BD00824C200C8003A174E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				D60BA7BC24B97FF500611AEC /* SupportFiles */,
 				D60BA7B624B97ADC00611AEC /* Info.plist */,
 				D60BA7C224B989A900611AEC /* Constants.swift */,
+				D61BD00824C200C8003A174E /* AuthViewController.swift */,
 			);
 			path = "auth-screen";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				D60BA7AD24B97AD900611AEC /* ViewController.swift in Sources */,
 				D60BA7C124B9856700611AEC /* ASButton.swift in Sources */,
 				D60BA7C524B98AED00611AEC /* ASUITextField.swift in Sources */,
+				D61BD00924C200C8003A174E /* AuthViewController.swift in Sources */,
 				D60BA7A924B97AD900611AEC /* AppDelegate.swift in Sources */,
 				D60BA7AB24B97AD900611AEC /* SceneDelegate.swift in Sources */,
 				D60BA7C724BABDF500611AEC /* RoundedImageView.swift in Sources */,
